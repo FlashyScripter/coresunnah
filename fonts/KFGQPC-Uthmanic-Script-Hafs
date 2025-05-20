@@ -1,0 +1,32 @@
+<head>
+  <meta charset="UTF-8" />
+  <title>CoreSunnah Hadith Archive</title>
+  <style>
+    @font-face {
+      font-family: 'UthmanicHafs';
+      src: url(KFGQPC Uthmanic Script HAFS Regular\KFGQPC Uthmanic Script HAFS Regular.otf) format('truetype');
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+      line-height: 1.6;
+    }
+
+    .arabic {
+      font-family: 'UthmanicHafs', serif;
+      direction: rtl;
+      text-align: right;
+      font-size: 1.4rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      color: #222;
+    }
+
+    .english {
+      font-size: 1rem;
+      color: #444;
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
