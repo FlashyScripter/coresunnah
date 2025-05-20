@@ -1,0 +1,2 @@
+# coresunnah
+[test]
