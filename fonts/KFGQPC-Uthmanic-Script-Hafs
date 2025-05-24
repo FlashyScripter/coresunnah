@@ -2,9 +2,11 @@
   <!-- ... other head content ... -->
   <style>
     @font-face {
-      font-family: 'UthmanicHafs';
-      src: url('fonts/KFGQPC-Uthmanic-Script-HAFS-Regular.otf') format('opentype');
-    }
+  font-family: 'UthmanicHafs';
+  src: url('fonts/KFGQPC-Uthmanic-Script-HAFS-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
     body {
       font-family: Arial, sans-serif;
