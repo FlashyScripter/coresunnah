@@ -1,33 +1,9 @@
-<head>
-  <!-- ... other head content ... -->
-  <style>
-    @font-face {
-  font-family: 'UthmanicHafs';
-  src: url('fonts/KFGQPC-Uthmanic-Script-HAFS-Regular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
+@font-face {
+    font-family: 'KFGQPC Uthmanic Script HAFS';
+    src: url('fonts/KFGQPC-Uthmanic-Script-HAFS-Regular.eot');
+    src: url('fonts/KFGQPC-Uthmanic-Script-HAFS-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/KFGQPC-Uthmanic-Script-HAFS-Regular.woff2') format('woff2'),
+         url('fonts/KFGQPC-Uthmanic-Script-HAFS-Regular.woff') format('woff'),
+         url('fonts/KFGQPC-Uthmanic-Script-HAFS-Regular.ttf')  format('truetype'),
+         url('fonts/KFGQPC-Uthmanic-Script-HAFS-Regular.svg#KFGQPC Uthmanic Script HAFS') format('svg');
 }
-
-    body {
-      font-family: Arial, sans-serif;
-      margin: 2rem;
-      line-height: 1.6;
-    }
-
-    .arabic {
-      font-family: 'UthmanicHafs', serif;
-      direction: rtl;
-      text-align: right;
-      font-size: 1.4rem;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-      color: #222;
-    }
-
-    .english {
-      font-size: 1rem;
-      color: #444;
-      margin-bottom: 2rem;
-    }
-  </style>
-</head>
